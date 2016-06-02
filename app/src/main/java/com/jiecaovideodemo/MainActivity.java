@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         final JCVideoPlayerStandard jcVideoPlayerStandard = (JCVideoPlayerStandard) findViewById(R.id.custom_videoplayer_standard);
         jcVideoPlayerStandard.setJcBuriedPointStandard(mJCBuriedPointStandard);
         jcVideoPlayerStandard.setUp("http://2449.vod.myqcloud.com/2449_bfbbfa3cea8f11e5aac3db03cda99974.f20.mp4"
-                , "嫂子想我没");
+                , "视频");
         //jcVideoPlayerStandard.thumbImageView.setThumbInCustomProject("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640");
         Picasso.with(this).
                 load("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640").
